@@ -11,3 +11,261 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 */
+
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+    .paddingT18 {
+        padding-top: 18px;
+    }
+
+    .paddingT36 {
+        padding-top: 36px;
+    }
+
+    .paddingT54 {
+        padding-top: 54px;
+    }
+
+    .paddingT72 {
+        padding-top: 72px;
+    }
+    
+    .direita {
+        text-align: right;
+    }
+    
+    header {
+
+    }
+
+	body {
+	    line-height: 18px;
+	}
+	
+	h1 {
+    	
+	}
+	
+	h2 {
+    	font-family: 'DINpro', sans-serif;
+    	font-size: 30px;
+        line-height: 36px;
+    	font-weight: bold;
+    	text-transform: uppercase;
+	}
+	
+	h3 {
+    	font-family: 'DINpro', sans-serif;
+    	font-size: 30px;
+    	line-height: 36px;
+    	font-weight: normal;
+    	text-transform: uppercase;
+	}
+	
+	h4 {
+    	font-family: 'DINpro', sans-serif;
+    	font-size: 30px;
+    	line-height: 36px;
+    	font-weight: bold;
+	}
+	
+	p.excerpt {
+    	font-family: georgia, serif;
+    	font-size: 14px;
+    	font-style: italic;
+	}
+    
+    #redes img {
+        float: right;
+        margin-left: 20px;
+    }
+    
+    #busca {
+        position: relative;
+    }
+    
+        #busca input {
+            height: 36px;
+            padding: 0;
+            background: #eee;
+            border: 1px solid #bbb;
+            border-radius: 6px;
+            text-transform: uppercase;
+            color: #bbb;
+            font-family: 'DINpro';
+            font-size: 18px;
+            padding-left: 2%;
+            float: right;
+            width: 98%;
+        }
+    
+    #menuPrincipal {
+        font-family: 'DINpro', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        color: #000;
+        line-height: 18px;
+    }
+        
+        #menuPrincipal li {
+            float: left;
+            margin-right: 5%;
+            list-style: none;
+        }
+
+    .destaque {
+
+    }
+        .destaque .fourcol img {
+            border: 1px solid #000;
+            bottom: 0px;
+        }
+        
+        .destaque .fourcol {
+            position: relative;
+        }
+                
+        .destaque .fourcol p {
+            font-family: georgia, serif;
+            font-style: italic;
+            font-size: 14px;
+            color: #ffffff;
+            background-image: url(imagens/destaqueBG.png);
+            padding: 10px 16px;
+            width: 80%;
+            position: absolute;
+            bottom: 4px;
+        }
+    
+    
+    .miniPost {
+        display: block;
+        position: relative;
+        height: 198px;
+    }
+    
+        .miniPost img {
+            float: left;
+        }
+        
+        .miniPost img {
+            margin-right: 18px;
+        }
+        
+        .miniTexto {
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            margin-left: 312px;
+        }
+    
+    #proximosShows {
+        
+    }
+    
+        #proximosShows .data {
+            height: 80px;
+            position: relative;
+            margin-top: 36px;
+        }
+    
+       #proximosShows .onde {
+           float: right;
+           margin-right: 92px;
+       }
+
+           #proximosShows .onde span, h4 {
+                float: right;
+           }
+
+        #proximosShows .local {
+
+        }
+
+        #proximosShows .titulo {
+            margin-top: 14px;            
+        }
+
+        #proximosShows .quando {
+            float: right;
+        }
+
+    	#proximosShows span {
+        	font-family: georgia, serif;
+        	font-size: 14px;
+        	font-style: italic;
+        	float: left;
+    	}
+    	
+    	#proximosShows .dia, .mes {
+    	    font-family: 'DINpro', sans-serif !important;
+    	    font-weight: bold !important;
+            font-style: normal !important;
+            text-transform: uppercase !important;
+        	float: right !important;
+
+        }
+        
+            	#proximosShows .mes {
+                	font-size: 36px;
+                	line-height: 24px;
+                	position: absolute;
+                	bottom: 0;
+                	right: 4px;
+            	}
+            	
+                #proximosShows .dia {
+                	font-size: 72px;
+                	line-height: 24px;
+                	position: absolute;
+                	top: 0;
+                	right: 0px;
+            	}
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+		
+	}
+	
+	#logo img {
+    	margin: 0 auto 24px auto;
+    	display: block;
+	}
+    
+    #menuPrincipal {
+        display: none;
+    }
+    
+    #redes {
+        display: none;
+    }
+    
+    .miniPost .paddingT72 {
+        padding-top: 0;
+    }
+    
+    .pshow {
+        display: none;
+    }
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+/*	.logo {
+		background: url(logo2x.jpg) no-repeat;
+		background-size: 212px 303px;
+	}*/
+
+}

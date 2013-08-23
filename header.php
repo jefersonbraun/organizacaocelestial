@@ -2,28 +2,74 @@
 
 <head>
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
-	<link rel="profile" href="http://gmpg.org/xfn/11">
-	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- 1140px Grid styles for IE -->
+	<!--[if lte IE 9]><link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/ie.css" type="text/css" media="screen" /><![endif]-->
+
+	<!-- The 1140px Grid - http://cssgrid.net/ -->
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/1140.css" type="text/css" media="screen">
+	
+	<!-- Your styles -->
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/styles.css" type="text/css" media="screen">
+	
+	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
+	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/css3-mediaqueries.js"></script>
+	
+	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-2.0.3.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style.css">
+   	<!-- <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/1140.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/ie.css">
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/css3-mediaqueries.js"></script>-->
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
-	<div id="page" class="hfeed site">
-		<header id="masthead" class="site-header" role="banner">
-			<a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-				<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
-				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-			</a>
+<body>
+		<header class="paddingT36">
+            <div class="container">
+                <div class="row">
+                    <div id="logo" class="threecol">
+            			<a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+            				<img src="<?php echo get_template_directory_uri(); ?>/imagens/logo.png" alt="logo" width="166" height="36">
+            			</a>
+                    </div>
+                    <div class="fivecol">
+            			<div id="redes">
+            				<img src="<?php echo get_template_directory_uri(); ?>/imagens/redes/youtube.png" alt="Youtube" width="36" height="36">
+            				<img src="<?php echo get_template_directory_uri(); ?>/imagens/redes/vimeo.png" alt="Vimeo" width="36" height="36">
+            				<img src="<?php echo get_template_directory_uri(); ?>/imagens/redes/twitter.png" alt="Twitter" width="36" height="36">
+            				<img src="<?php echo get_template_directory_uri(); ?>/imagens/redes/facebook.png" alt="Facebook" width="36" height="36">
+            			</div>
+                    </div>
+                    
+                    <div class="fourcol last">    
+                        <form id="busca">
+                            <input value="Buscar..." />
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="row paddingT36">
+                    <div class="eightcol">
+            			<nav id="menuPrincipal">
+            			    <ul>
+            			        <li>O.C.L.A.</li>
+            			        <li>Músicas</li>
+            			        <li>Clipes</li>
+            			        <li>Blog</li>
+            			        <li>Agenda</li>
+            			        <li>Release</li>
+            			    </ul>
+            			</nav><!-- #site-navigation -->
+                    </div>
+                    <div class="fourcol last">
+                        <span>Tweet</span>
+                        <span>like</span>
+                    </div>
+                </div><!-- .row -->
+            </div><!-- .container -->
+		</header>
 
-			<div id="navbar" class="navbar">
-				<nav id="site-navigation" class="navigation main-navigation" role="navigation">
-					<h3 class="menu-toggle"><?php _e( 'Menu', 'twentythirteen' ); ?></h3>
-					<a class="screen-reader-text skip-link" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentythirteen' ); ?>"><?php _e( 'Skip to content', 'twentythirteen' ); ?></a>
-					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
-					<?php get_search_form(); ?>
-				</nav><!-- #site-navigation -->
-			</div><!-- #navbar -->
-		</header><!-- #masthead -->
-
-		<div id="main" class="site-main">
+		<div class="container">
+    		<div class="content">
