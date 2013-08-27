@@ -36,10 +36,10 @@
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
     
         <div class="miniPost">
-            <?php the_post_thumbnail(); ?>
+            <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
             <div class="miniTexto">
-                <h3><?php the_title() ;?></h3>
-                <p class="excerpt paddingT18"><?php the_excerpt(); ?></p>
+                <h3><a href="<?php the_permalink(); ?>"><?php the_title() ;?></a></h3>
+                <p class="excerpt paddingT18"><a href="<?php the_permalink(); ?>"><?php echo the_excerpt(); ?></a></p>
             </div>
         </div>    
         <br style="clear: both;" />
