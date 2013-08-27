@@ -25,28 +25,28 @@
     <div class="fivecol"></div>
     <div class="fourcol last direita pshows">
         <h2>Próximos Shows</h2>
-        <span>Veja também a <a href="#">agenda completa</a></span>
+        <span>Veja também a <a href="<?php echo home_url(); ?>/agenda">agenda completa</a></span>
     </div>
 </div>
 <div class="row">
     <div class="eightcol">
+    
+    <?php query_posts('showposts=2'); ?>
+    
+    <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+    
         <div class="miniPost">
-            <img src="<?php echo get_template_directory_uri(); ?>/imagens/destaque/blog1.png" alt="blog1" width="299" height="198" />
+            <?php the_post_thumbnail(); ?>
             <div class="miniTexto">
-                <h3>Ensaio no Gorilla</h3>
-                <p class="excerpt paddingT18">Nossa cozinha tá sempre aberta pra deixar todos satisfeitos e bem atendidos! Nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>
+                <h3><?php the_title() ;?></h3>
+                <p class="excerpt paddingT18"><?php the_excerpt(); ?></p>
             </div>
-        </div>        
+        </div>    
         <br style="clear: both;" />
-
-        <div class="miniPost paddingT18">
-            <img src="<?php echo get_template_directory_uri(); ?>/imagens/destaque/blog2.png" alt="blog2" width="299" height="198" />
-            <div class="miniTexto">
-                <h3>Hermeto Pascoal</h3>
-                <p class="excerpt paddingT18">Tudo, tudo, tudo é música...<br /> Nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
-            </div>
-        </div>
+        
+        <?php endwhile; endif; ?>
     </div>
+    
     <div id="proximosShows" class="fourcol last direita paddingT36">
         <div class="data">
         <div class="quando paddingT18">

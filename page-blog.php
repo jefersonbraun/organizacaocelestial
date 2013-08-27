@@ -1,4 +1,9 @@
-<?php get_header(); ?>
+<?php
+/*Template name: Index*/
+
+get_header(); ?>
+
+<?php query_posts('showposts=4'); ?>
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
