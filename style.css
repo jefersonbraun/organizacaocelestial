@@ -19,10 +19,19 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     .paddingT18 {
         padding-top: 18px;
     }
+    
+    .marginT18 {
+        margin-top: 18px;
+    }
 
     .paddingT36 {
         padding-top: 36px;
     }
+
+    .marginT36 {
+        margin-top: 36px;
+    }
+
 
     .paddingT54 {
         padding-top: 54px;
@@ -36,6 +45,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
         text-align: right;
     }
     
+    .centro {
+        margin: 0 auto;
+        display: block;
+    }
+    
     header {
 
     }
@@ -44,8 +58,20 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	    line-height: 18px;
 	}
 	
+	footer {
+    	padding-bottom: 18px;
+	}
+	
+	footer .row {
+    	border-top: 3px solid #6c1411;
+	}
+	
 	h1 {
-    	
+    	font-family: 'DINpro', sans-serif;
+    	font-size: 30px;
+        line-height: 36px;
+    	font-weight: bold;
+    	text-transform: uppercase;    	
 	}
 	
 	h2 {
@@ -100,14 +126,24 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
             float: right;
             width: 98%;
         }
-    
+        
     #menuPrincipal {
-        font-family: 'DINpro', sans-serif;
-        font-size: 18px;
-        font-weight: bold;
-        color: #000;
-        line-height: 18px;
+        min-height: 36px;
     }
+            
+        #menuPrincipal a {
+            font-family: 'DINpro', sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+            color: #000;
+            line-height: 24px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        #menuPrincipal a:hover {
+            border-bottom: 3px solid #6c1411;
+        }
         
         #menuPrincipal li {
             float: left;
@@ -160,6 +196,16 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
             right: 0px;
             margin-left: 312px;
         }
+    
+    .pshows span {
+        font-family: Georgia, serif;
+        font-size: 14px;
+        font-style: italic;
+    }
+    
+    .pshows a {
+        color: #000;
+    }
     
     #proximosShows {
         
@@ -225,8 +271,32 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
             	}
 
 /* ============================= */
-/* ! Layout for mobile version   */
+/* ! Layout para telas menores   */
 /* ============================= */
+
+
+@media only screen and (max-width: 1023px) {
+    
+    .miniPost h3 {
+        font-size: 1.8em;
+        line-height: 1em;
+    }
+    
+    .miniTexto .paddingT18 {
+        padding-top: 0px !important;
+    }
+    
+    #menuPrincipal a {
+        font-size: 1.2em;
+    }
+    
+    
+}
+
+
+/* ====================== */
+/* ! Layout para mobile   */
+/* ====================== */
 
 @media handheld, only screen and (max-width: 767px) {
 
@@ -254,6 +324,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     .pshow {
         display: none;
     }
+    
 }
 
 

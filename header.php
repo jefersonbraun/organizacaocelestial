@@ -18,10 +18,9 @@
 	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/css3-mediaqueries.js"></script>
 	
 	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/clipes.js"></script>
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style.css">
-   	<!-- <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/1140.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/ie.css">
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/css3-mediaqueries.js"></script>-->
+
 	<?php wp_head(); ?>
 </head>
 
@@ -54,12 +53,12 @@
                     <div class="eightcol">
             			<nav id="menuPrincipal">
             			    <ul>
-            			        <li>O.C.L.A.</li>
-            			        <li>Músicas</li>
-            			        <li>Clipes</li>
-            			        <li>Blog</li>
-            			        <li>Agenda</li>
-            			        <li>Release</li>
+            			        <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">O.C.L.A.</a></li>
+            			        <li><a href="<?php echo home_url(); ?>/musicas">Músicas</a></li>
+            			        <li><a href="<?php echo home_url(); ?>/clipes">Clipes</a></li>
+            			        <li><a href="<?php echo home_url(); ?>/blog">Blog</a></li>
+            			        <li><a href="<?php echo home_url(); ?>/agenda">Agenda</a></li>
+            			        <li><a href="<?php echo home_url(); ?>/release">Release</a></li>
             			    </ul>
             			</nav><!-- #site-navigation -->
                     </div>
@@ -72,4 +71,3 @@
 		</header>
 
 		<div class="container">
-    		<div class="content">

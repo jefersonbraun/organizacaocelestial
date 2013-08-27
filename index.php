@@ -23,7 +23,7 @@
         <h2>Blog</h2> <br />
     </div>
     <div class="fivecol"></div>
-    <div class="fourcol last direita pshow">
+    <div class="fourcol last direita pshows">
         <h2>Próximos Shows</h2>
         <span>Veja também a <a href="#">agenda completa</a></span>
     </div>

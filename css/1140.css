@@ -79,7 +79,7 @@ float: left;
 margin-right: 0px;
 }
 
-img, object, embed {
+img, object, embed, iframe {
 max-width: 100%;
 }
 
