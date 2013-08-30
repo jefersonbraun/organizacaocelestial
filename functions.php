@@ -1,5 +1,15 @@
 <?php
 
+	function register_my_menus() {
+		register_nav_menus(
+			array(
+			'principal' => __( 'Principal' ),
+			'redes' => __( 'Redes' )
+			)
+		);
+	}
+	add_action( 'init', 'register_my_menus' );
+
     function custom_excerpt_length( $length ) {
         return 28;
     }

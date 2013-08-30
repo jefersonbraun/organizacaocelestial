@@ -189,6 +189,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
             margin-right: 5%;
             list-style: none;
         }
+        
+        #menuPrincipal .current_page_item a {
+	        border-bottom: 3px solid #6c1411;
+        }
 
     .destaque {
 
@@ -319,6 +323,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
         border-bottom: 1px solid #ccc;
         padding-bottom: 18px;
         margin-bottom: 36px;
+        width: 100%;
     }
 
 

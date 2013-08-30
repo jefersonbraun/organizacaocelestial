@@ -52,14 +52,7 @@
                 <div class="row paddingT36">
                     <div class="eightcol">
             			<nav id="menuPrincipal">
-            			    <ul>
-            			        <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">O.C.L.A.</a></li>
-            			        <li><a href="<?php echo home_url(); ?>/musicas">Músicas</a></li>
-            			        <li><a href="<?php echo home_url(); ?>/clipes">Clipes</a></li>
-            			        <li><a href="<?php echo home_url(); ?>/blog">Blog</a></li>
-            			        <li><a href="<?php echo home_url(); ?>/agenda">Agenda</a></li>
-            			        <li><a href="<?php echo home_url(); ?>/release">Release</a></li>
-            			    </ul>
+            			    <?php wp_nav_menu( "__array ('menu' +> 'principal')"); ?>
             			</nav><!-- #site-navigation -->
                     </div>
                     <div class="fourcol last">
