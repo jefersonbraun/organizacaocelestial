@@ -11,9 +11,17 @@ get_header(); ?>
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
     
         <div class="loopPost">
-            <h2 style="margin-bottom: 18px;"><a href="<?php the_permalink(); ?>"><?php the_title() ;?></a></h2>
-            <?php the_date('d/m/Y', '<time>', '</time>'); ?>
-            <?php the_content(); ?>
+            <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title() ;?></a></h2>
+            <?php the_date('d/m/Y', '<time class="postTime">', '</time>'); ?>
+            <br style="clear:both;" />
+			<br style="clear:both;" />
+            <?php the_content( __( 'Leia mais <span class="meta-nav">&rarr;</span>' ) ); ?>
+            <br style="clear:both;" />
+			<br style="clear:both;" />
+            <p>
+            	Escrito por <?php the_author(); ?><br />
+				 <?php comments_number( 'Nenhum comentário até o momento', '1 comentário', '% comentários' ); ?>
+            </p>
         </div>
         
         <?php endwhile; endif; ?>

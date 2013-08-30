@@ -325,8 +325,29 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
         margin-bottom: 36px;
         width: 100%;
     }
+		
+		.loopPost p {
+	    	font-family: georgia, serif;
+	    	font-size: 14px;
+	    	font-style: italic;
+	    	color: #000;
+	    	text-decoration: none;			
+		}
+		
+		.entry-title {
+			width: 70%;
+			float: left;
+		}
 
-
+		.postTime {
+			float: right;
+			font-family: 'DINpro', sans-serif;
+			font-size: 30px;
+			line-height: 36px;
+			font-weight: bold;
+			text-transform: uppercase;
+			top: 0;
+		}
 
 /* ============================= */
 /* ! Layout para telas menores   */
@@ -348,6 +369,15 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
         font-size: 1.2em;
     }
     
+	.entry-title {
+		width: auto;
+		float: none;
+	}
+
+	.postTime {
+		font-size: 18px;
+		float: none;
+	}
     
 }
 
