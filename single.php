@@ -9,8 +9,11 @@
 				<br style="clear:both;" />
 				<br style="clear:both;" />
 				<?php the_content(); ?>
+				<br style="clear:both;" />
+				<br style="clear:both;" />
+				<div class="fb-comments" data-href="<?php the_permalink(); ?>" data-width="470"></div>
 			</div>
-		
+			
 			<div class="fourcol last">
 			<?php get_template_part( 'sidebar', 'social'); ?>
 			</div>
