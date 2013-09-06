@@ -49,6 +49,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
         float: left;
     }
     
+    .alignright {
+	    float: right;
+    }
+    
     .centro {
         margin: 0 auto;
         display: block;
@@ -63,8 +67,19 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     }
 
 	body {
+	    min-width: 1024px;
 	    line-height: 18px;
 	}
+	
+		body p {
+			margin-bottom: 18px;
+			line-height: 18px;
+			font-family: georgia, serif;
+			font-size: 14px;
+			font-style: italic;
+			color: #000;
+			text-decoration: none;
+		}
 	
 	footer {
     	padding-bottom: 18px;
@@ -312,7 +327,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
                 	top: 0;
                 	right: 0px;
             	}
-
+	
+	.ler-mais {
+		display: none;
+	}
 
 
 /* ! Página Blog   */
@@ -348,6 +366,14 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 			text-transform: uppercase;
 			top: 0;
 		}
+
+/* Página clipes*/
+
+	.loopClipe {
+		border-bottom: 1px solid #ccc;
+		padding-bottom: 36px;
+	}
+	
 
 /* ============================= */
 /* ! Layout para telas menores   */

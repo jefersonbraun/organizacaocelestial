@@ -18,10 +18,11 @@ get_header(); ?>
             <?php the_content( __( 'Leia mais <span class="meta-nav">&rarr;</span>' ) ); ?>
             <br style="clear:both;" />
 			<br style="clear:both;" />
-            <p>
+            <p class="alignleft">
             	Escrito por <?php the_author(); ?><br />
 				 <?php comments_number( 'Nenhum comentário até o momento', '1 comentário', '% comentários' ); ?>
             </p>
+            <div class="fb-like alignright" data-href="<?php the_permalink(); ?>" data-width="450" data-show-faces="true" data-send="true"></div>
         </div>
         
         <?php endwhile; endif; ?>

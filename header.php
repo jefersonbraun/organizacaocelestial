@@ -20,7 +20,8 @@
 	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-2.0.3.min.js"></script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/clipes.js"></script>
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style.css">
-	
+
+	<!-- FACEBOK -->	
 	<div id="fb-root"></div>
 	<script>(function(d, s, id) {
 	var js, fjs = d.getElementsByTagName(s)[0];
