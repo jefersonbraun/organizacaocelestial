@@ -14,7 +14,7 @@ get_header(); ?>
     <div class="row">
         <div class="twocol"></div>
         <div class="eightcol marginT18">
-            <img class="centro" src="<?php echo get_template_directory_uri(); ?>/imagens/release/grupo.png" alt="grupo" width="515" height="340" />
+            <img class="centro" src="<?php echo get_template_directory_uri(); ?>/imagens/release/release.png" alt="grupo" width="360" />
         </div>
         <div class="twocol last"></div>
     </div>

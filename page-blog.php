@@ -19,10 +19,10 @@ get_header(); ?>
             <br style="clear:both;" />
 			<br style="clear:both;" />
             <p class="alignleft">
-            	Escrito por <?php the_author(); ?><br />
-				 <?php comments_number( 'Nenhum comentário até o momento', '1 comentário', '% comentários' ); ?>
+            	Escrito por <?php the_author(); ?>
             </p>
-            <div class="fb-like alignright" data-href="<?php the_permalink(); ?>" data-width="450" data-show-faces="true" data-send="true"></div>
+<a href="https://twitter.com/share" class="twitter-share-button alignright mleft10" data-url="<?php the_permalink(); ?>" data-text="" data-via="oclatil">Tweet</a>
+            <div class="fb-like alignright" data-href="<?php the_permalink(); ?>" data-layout="button_count" data-show-faces="false" data-send="false"></div>
         </div>
         
         <?php endwhile; endif; ?>

@@ -30,6 +30,9 @@
 	js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=526893990697251";
 	fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));</script>
+	
+	<!-- TWITTER -->
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
 	
 	<?php wp_head(); ?>
@@ -67,8 +70,8 @@
             			</nav><!-- #site-navigation -->
                     </div>
                     <div class="fourcol last">
-                        <span>Tweet</span>
-                        <span>like</span>
+					<a href="https://twitter.com/share" class="twitter-share-button alignright mleft10" data-url="http://organizacaocelestial.com.br/" data-text="" data-via="oclatil">Tweet</a>
+						<div class="fb-like alignright" data-href="http://organizacaocelestial.com.br/" data-layout="button_count" data-show-faces="false" data-send="false"></div>
                     </div>
                 </div><!-- .row -->
             </div><!-- .container -->

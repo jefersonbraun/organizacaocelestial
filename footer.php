@@ -5,7 +5,7 @@
         <div class="row paddingT18">
             <div class="twelvecol">
                 <h2>Contato</h2>
-                <address>Tel: +1 (415) 685-4230 <br />
+                <address>Tel: (51) 8209-0013 <br />
                 e-mail: shows@organizacaocelestial.com.br</address>
             </div>
         </div>
