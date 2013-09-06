@@ -21,5 +21,20 @@
     add_filter('excerpt_more', 'new_excerpt_more');
 
     add_theme_support( 'post-thumbnails' );
+    
+    /* POST TYPE PARA CLIPES */
+	add_action( 'init', 'create_post_type' );
+		function create_post_type() {
+			register_post_type( 'clipe',
+				array(
+					'labels' => array(
+						'name' => __( 'Clipes' ),
+						'singular_name' => __( 'Clipe' )
+					),
+				'public' => true,
+				'has_archive' => true,
+				)
+		);
+	}
 
 ?>
