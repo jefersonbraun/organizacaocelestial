@@ -34,6 +34,19 @@
 	<!-- TWITTER -->
 	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
+	<!-- GOOGLE -->
+	<script>
+	(function() {
+	var cx = '003101551587083949207:dl_4useau1k';
+	var gcse = document.createElement('script');
+	gcse.type = 'text/javascript';
+	gcse.async = true;
+	gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+	'//www.google.com/cse/cse.js?cx=' + cx;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(gcse, s);
+	})();
+	</script>
 	
 	<?php wp_head(); ?>
 </head>
@@ -47,19 +60,12 @@
             				<img src="<?php echo get_template_directory_uri(); ?>/imagens/logo.png" alt="logo" width="166" height="36">
             			</a>
                     </div>
-                    <div class="fivecol">
+                    <div class="ninecol last">
             			<div id="redes">
-            				<img src="<?php echo get_template_directory_uri(); ?>/imagens/redes/youtube.png" alt="Youtube" width="36" height="36">
-            				<img src="<?php echo get_template_directory_uri(); ?>/imagens/redes/vimeo.png" alt="Vimeo" width="36" height="36">
-            				<img src="<?php echo get_template_directory_uri(); ?>/imagens/redes/twitter.png" alt="Twitter" width="36" height="36">
-            				<img src="<?php echo get_template_directory_uri(); ?>/imagens/redes/facebook.png" alt="Facebook" width="36" height="36">
+            				<a class="youtube" target="_blank" href="http://www.youtube.com/user/OCLATV/videos"></a>
+            				<a class="twitter" target="_blank" href="https://www.twitter.com/oclatil"></a>
+            				<a class="facebook" target="_blank" href="https://www.facebook.com/organizacaocelestial"></a>
             			</div>
-                    </div>
-                    
-                    <div class="fourcol last">    
-                        <form id="busca">
-                            <input value="Buscar..." />
-                        </form>
                     </div>
                 </div>
                 

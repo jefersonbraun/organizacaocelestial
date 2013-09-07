@@ -161,10 +161,38 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     	    text-decoration: underline;
 	    }
     
-    #redes img {
+    #redes a {
         float: right;
+        display: block;
         margin-left: 20px;
+		width: 36px;
+		height: 36px;
     }
+    
+    a.youtube {
+		background-image: url(imagens/redes/youtube.png);
+	}
+	
+	a:hover.youtube {
+		background-image: url(imagens/redes/youtube_cor.png);
+	}
+	
+	a.facebook {
+		background-image: url(imagens/redes/facebook.png);
+	}
+	
+	a:hover.facebook {
+		background-image: url(imagens/redes/facebook_cor.png);
+	}
+	
+	a.twitter {
+		background-image: url(imagens/redes/twitter.png);
+	}
+	
+	a:hover.twitter {
+		background-image: url(imagens/redes/twitter_cor.png);
+	}
+
     
     #busca {
         position: relative;
