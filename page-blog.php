@@ -1,12 +1,12 @@
 <?php
-/*Template name: Index*/
+/*Template name: Blog*/
 
 get_header(); ?>
 
 <div class="row paddingT36">
     <div class="eightcol">
     
-    <?php query_posts('showposts=5'); ?>
+    <?php $wp_query->query('cat=-5'.'&paged='.$paged); ?>
     
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
     
@@ -26,6 +26,10 @@ get_header(); ?>
         </div>
         
         <?php endwhile; endif; ?>
+        
+        <?php if(function_exists('wp_paginate')) {
+		    wp_paginate();
+		} ?>
     </div>
     
     <div class="fourcol last">

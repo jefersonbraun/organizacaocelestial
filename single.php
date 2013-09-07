@@ -4,8 +4,16 @@
 	
 		<div class="row paddingT36">
 			<div class="eightcol">
-				<h2 class="entry-title"><?php the_title() ;?></h2>
-				<?php the_date('d/m/Y', '<time class="postTime">', '</time>'); ?>
+				<h2 class='entry-title'><?php the_title() ;?></h2>
+				
+				<?php
+					if ( in_category('video') ) {
+						
+					} else {
+						the_date('d/m/Y', '<time class="postTime">', '</time>');
+					}
+				?>
+
 				<br style="clear:both;" />
 				<br style="clear:both;" />
 				<?php the_content(); ?>
