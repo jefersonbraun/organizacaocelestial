@@ -6,7 +6,6 @@ get_header(); ?>
     <div class="row">
     <div class="twelvecol marginT18">
         <h1>Músicas</h1>
-        <span>Tweet Like</span>
     </div>
     </div>
     
