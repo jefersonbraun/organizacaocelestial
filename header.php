@@ -76,8 +76,8 @@
             			</nav><!-- #site-navigation -->
                     </div>
                     <div class="fourcol last">
-					<a href="https://twitter.com/share" class="twitter-share-button alignright mleft10" data-url="http://organizacaocelestial.com.br/" data-text="" data-via="oclatil">Tweet</a>
-						<div class="fb-like alignright" data-href="http://organizacaocelestial.com.br/" data-layout="button_count" data-show-faces="false" data-send="false"></div>
+					<div class="alignright"><a href="https://twitter.com/share" class="twitter-share-button mleft10" data-url="http://organizacaocelestial.com.br/" data-text="" data-via="oclatil">Tweet</a></div>
+						<div class="alignright"><div class="fb-like" data-href="http://organizacaocelestial.com.br/" data-layout="button_count" data-show-faces="false" data-send="false"></div></div>
                     </div>
                 </div><!-- .row -->
             </div><!-- .container -->

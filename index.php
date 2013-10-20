@@ -5,17 +5,17 @@
         <h2>Destaque</h2><br />
         <a href="http://organizacaocelestial.com.br/noia-skate-rap/">
         <img src="<?php echo get_template_directory_uri(); ?>/imagens/destaque/featuredNoiaSkateRap.png" alt="destaque" width="380" height="360" /></a>
-        <p class="excerpt">Clipe de Nóia Skate Rap já passa de 20mil visualizações no Youtube!</p>
+        <p class="excerpt"><b>Clipe de Nóia Skate Rap já passa de 20mil visualizações no Youtube!</b></p>
     </div>
     <div  class="fourcol">
         <h2>Clipes</h2><br />
-        <a href="http://localhost/organizacaocelestial/clipes/"><img src="<?php echo get_template_directory_uri(); ?>/imagens/destaque/clipes.png" alt="clipes" width="380" height="360" /></a>
-        <p class="excerpt">Conheça os clipes da Organização Celestial do Livre Arbítrio. Chega mais!</p>
+        <a href="http://organizacaocelestial.com.br/clipes/"><img src="<?php echo get_template_directory_uri(); ?>/imagens/destaque/clipes.png" alt="clipes" width="380" height="360" /></a>
+        <p class="excerpt"><b>Conheça os clipes da Organização Celestial do Livre Arbítrio. Chega mais!</b></p>
     </div>
     <div  class="fourcol last">
         <h2>Músicas</h2><br />
         <a href="http://organizacaocelestial.com.br/musicas/"><img src="<?php echo get_template_directory_uri(); ?>/imagens/destaque/musicas.png" alt="musicas" width="380" height="360" /></a>
-        <p class="excerpt">Já ouviu nossos sons? Então acessa aí e te diverte!</p>
+        <p class="excerpt"><b>Já ouviu nossos sons? Então acessa aí e te diverte!</b></p>
     </div>
 </div>
 
