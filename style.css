@@ -144,10 +144,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     	font-weight: bold;
 	}
 	
-	time {
-    	float: right;
-	}
-	
 	.miniTexto p a {
     	font-family: georgia, serif;
     	font-size: 14px;
@@ -269,13 +265,12 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
         display: block;
         position: relative;
         height: 198px;
+        overflow: hidden; 
     }
     
         .miniPost img {
             float: left;
-        }
-        
-        .miniPost img {
+            max-width: 299px;
             margin-right: 18px;
         }
         
@@ -376,23 +371,19 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     }
 		
 		.entry-title {
-			width: 70%;
 			float: left;
 		}
 
 		.postTime {
-			float: right;
 			font-family: 'DINpro', sans-serif;
-			font-size: 30px;
-			line-height: 36px;
 			font-weight: bold;
 			text-transform: uppercase;
-			top: 0;
 		}
 	
-	.autor {
-		font-family: font-family: 'DINpro', sans-serif;
+	.dinpro {
+		font-family: 'DINpro', sans-serif;
 		text-transform: uppercase;
+		font-weight: bold;
 	}
 	
 	.italico {
