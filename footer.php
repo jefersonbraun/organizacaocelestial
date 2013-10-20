@@ -6,7 +6,7 @@
             <div class="twelvecol">
                 <h2>Contato</h2>
                 <address>Tel: (51) 8209-0013 <br />
-                e-mail: shows@organizacaocelestial.com.br</address>
+                e-mail: pedro_ocla@hotmail.com</address>
             </div>
         </div>
     </div>

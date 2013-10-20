@@ -129,7 +129,7 @@ get_header(); ?>
             <div class="fb-like alignright" data-href="<?php the_permalink(); ?>" data-layout="button_count" data-show-faces="false" data-send="false"></div>
         </div>
         <div class="sevencol marginT18 last">
-            <iframe width="100%" height="765" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fusers%2F7104602&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=false"></iframe>
+            <iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fusers%2F7104602&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=false"></iframe>
         </div>
     </div>
 
