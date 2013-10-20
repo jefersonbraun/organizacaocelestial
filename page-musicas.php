@@ -4,141 +4,32 @@
 get_header(); ?>
     
     <div class="row">
-    <div class="twelvecol marginT18">
+    <div class="twocol"></div>
+    <div class="tencol last marginT18">
         <h1>Músicas</h1>
     </div>
     </div>
-    
-    <div class="row">
-        <div class="fivecol marginT18">
-            <img src="<?php echo get_template_directory_uri(); ?>/imagens/musicas/ideiasconcretas.png" alt="ideiasconcretas" width="524" height="522" />
-        </div>
-        <div class="sevencol marginT18 last">
-            <iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fusers%2F7104602&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=false"></iframe>
-        </div>
-    </div>
-    
-    
+
 <div class="row">
-    <div class="twocol"></div>
-        <div class="fourcol marginT18">
-		    <h2>Ficha Técnica</h2>
-		            <p class="marginT18">O.C.L.A. é Pedro DOM, Zilla Sonoro e Patrick Bass.</p>
-		            <p>
-						1 – Entre idéias orgânicas, concretas e eletrônicas (Música: Pedro Dom e Nico Sebolt)<br />
-						Bateria, pad e piano – Pedro Dom<br />
-						Baixo – Patrick Bass<br />
-						Flauta – Nico Sebolt<br />
-						GRAVADO NO LV ESTÚDIO e EVOLUSOM. Mixado por Ricardo Costa.
-		            </p>
-		            <p>
-						2 – C-H-A (Música: Pedro Dom Letra: Pedro Dom, Eduardo Habigzang e Lucas Uilson)<br />
-						Bateria, piano, rhodes, vibraphone, percussão, pad, cordas e sound design - Pedro Dom<br />
-						Baixo – Patrick Bass<br />
-						Voz – Pedro Dom, Eduardo Habigzang e Lucas Uilson<br />
-						GRAVADO NO LV ESTÚDIO E CONEY ISLAND. Mixado por Edo Portugal.
-		            </p>
-					<p>
-						3 – Nossa Homenagem (Música: Pedro Dom e Patrick Bass Letra: Pedro Dom e Miguel RMS)<br />
-						Bateria e cordas - Pedro Dom<br />
-						Baixo – Patrick Bass<br />
-						Voz – Pedro Dom e Miguel RMS<br />
-						GRAVADO NO LV ESTÚDIO, CASA DO MIGUEL E LOOP. Mixado por Edo Portugal.
-		            </p>
-					<p>
-						4 – Experimento (Música e letra: Pedro Dom e Lucas Uilson)<br />
-						Bateria, piano, percussão e vibraphone - Pedro Dom<br />
-						Baixo – Patrick Bass<br />
-						Voz – Pedro Dom e Lucas Uilson<br />
-						GRAVADO NA CASA DO PEDRO, LV ESTÚDIO E LOOP. Mixado por Edo Portugal.
-		            </p>
-					<p>
-						5 – Nóia Skate Rap (Música: Pedro Dom e Rodrigo Weber Letra: Lucas Uilson, Pedro Dom e Robinson Silva)<br />
-						Sample e bateria – Rodrigo Weber<br />
-						Bateria, percussão, baixo, trompete, rhodes e coro – Pedro Dom<br />
-						Voz – Lucas Uilson, Pedro Dom e Robinson Silva<br />
-						GRAVADO NA CASA DO PEDRO E LV ESTÚDIO. Mixado por Ricardo Costa.
-		            </p>
-					<p>
-						6 - Bom dia (Música: Pedro Dom e Paulo Ávila Jr. Letra: Pedro Dom, Ícaro Santos e Lucas Uilson)<br />
-						Bateria, piano e rhodes – Pedro Dom<br />
-						Baixo – Patrick Bass<br />
-						Guitarra – Felipe Apolonio<br />
-						Voz – Ícaro Santos, Pedro Dom e Lucas Uilson<br />
-						GRAVADO NO LV ESTÚDIO E INFAME SOUNDS. Mixado por Ricardo Costa.
-		            </p>
-					<p>
-						7 – Por onde a fonte brota (Música: Pedro Dom Letra: Pedro Dom, Lucas Uilson, Yule Almeida e Gabriel Scola)<br />
-						Bateria, percussão, piano e rhodes – Pedro Dom<br />
-						Baixo – Patrick Bass<br />
-						Voz – Pedro Dom, Lucas Uilson, Yule Almeida e Gabriel Scola<br />
-						GRAVADO NO LV ESTÚDIO. Mixado por Ricardo Costa.
-		            </p>
-				</div>
-				<div class="fourcol marginT18">
-					<p class="paddingT54">
-						8 – Pensamento acelerado (Música: Pedro Dom Letra: Pedro Dom e Lucas Uilson)<br />
-						Violão, bateria, percussão, piano e rhodes – Pedro Dom<br />
-						Baixo – Patrick Bass<br />
-						Voz – Pedro Dom e Lucas Uilson<br />
-						GRAVADO NO LV ESTÚDIO, INFAME SOUNDS E LOOP. Mixado por Edo Portugal.
-		            </p>
-					<p>
-						9 – O incrível som da percussão (Música e letra: Pedro Dom)<br />
-						Bateria, percussão, órgão e voz – Pedro Dom<br />
-						Baixo – Patrick Bass<br />
-						GRAVADO NO LV ESTÚDIO E LOOP. Mixado por Edo Portugal.
-					</p>
-					<p>
-						10 – Na busca do conhecimento (Música: Pedro Dom e Nico Sebolt Letra: Pedro Dom)<br />
-						Bateria, percussão, órgão e voz – Pedro Dom<br />
-						Baixo - Patrick Bass<br />
-						Sax – Nico Sebolt<br />
-						GRAVADO NO LV ESTÚDIO E EVOLUSOM. Mixado por Edo Portugal.
-		            </p>
-					<p>
-						11 – Transgressão (Música: Pedro Dom Letra: Carlão Ribeiro e Carlos Ribeiro)<br />
-						Cordas, bateria e piano – Pedro Dom<br />
-						Baixo – Patrick Bass<br />
-						Voz – Carlão Ribeiro e Carlos Ribeiro<br />
-						GRAVADO NO LV ESTÚDIO. Mixado por Edo Portugal.
-		            </p>
-					<p>
-						12 – Dia de show (Música: Pedro Dom Letra: Pedro Dom e Lucas Uilson)<br />
-						Bateria e piano - Pedro Dom<br />
-						Baixo - Patrick Bass<br />
-						Voz - Pedro Dom e Lucas Uilson<br />
-						GRAVADO NO LV ESTÚDIO. Mixado por Edo Portugal.
-		            </p>
-					<p>
-						13 – Massa sonora (Música: Pedro Dom Letra: Lucas Uilson, Leco Scheffel e Pedro Dom)<br />
-						Bateria e piano: Pedro Dom<br />
-						Baixo – Patrick Bass<br />
-						Scratch – Jorge Cuts<br />
-						Voz – Lucas Uilson, Leco Scheffel e Pedro Dom<br />
-						GRAVADO NO LV ESTÚDIO. Mixado por Edo Portugal.
-					</p>
-					<p>
-						14 – Joga pra cima (Música: Patrick Bass, Pedro Dom e Nico Sebolt Letra: Leonardo Silva e Pedro Dom)<br />
-						Bateria, piano e órgão – Pedro Dom<br />
-						Baixo – Patrick Bass<br />
-						Flauta – Nico Sebolt<br />
-						Voz – Leonardo Silva e Pedro Dom<br />
-						GRAVADO NO LV ESTÚDIO E EVOLUSOM. Mixado por Edo Portugal.
-		            </p>
-					<p>
-						15 – Provocando sua evolução (Música: Pedro Dom Letra: Lucas Uilson e Pedro Dom)<br />
-						Piano, piano elétrico e órgão – Pedro Dom<br />
-						Baixo – Patrick Bass<br />
-						Bateria – Pedro Ernesto Rocha Petracco<br />
-						Imoog – Edo Portugal<br />
-						Voz – Lucas Uilson e Pedro Dom<br />
-						GRAVADO NO LV ESTÚDIO, CONEY ISLAND E LOOP. Mixado por Edo Portugal.
-		            </p>
-        </div>
-            <div class="row">
-        <div class="twocol last"></div>
-        </div>
+	<div class="twocol"></div>
+	<div class="fourcol marginT18">
+		<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/7104602&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>
+		<br /><br />
+		<iframe style="border: 0; width: 350px; height: 791px;" src="http://bandcamp.com/EmbeddedPlayer/album=37244301/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="http://pedrodom.bandcamp.com/album/almadom-colab">AlmaDom ColaB by AlmaDom</a></iframe>
+		<br /><br />
+		<iframe style="border: 0; width: 350px; height: 626px;" src="http://bandcamp.com/EmbeddedPlayer/album=1295317919/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="http://pedrodom.bandcamp.com/album/sentidos-e-percep-es">Sentidos e Percepções by Pedro DOM &amp; DJ Alma</a></iframe>
+		<br /><br />
+		<iframe style="border: 0; width: 350px; height: 791px;" src="http://bandcamp.com/EmbeddedPlayer/album=2565746161/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="http://pedrodom.bandcamp.com/album/a-hist-ria-do-homem-que-sonhava-ser-grande">A História do Homem que Sonhava ser Grande by Pedro DOM</a></iframe>
+	</div>
+	<div class="fourcol marginT18">
+		<iframe style="border: 0; width: 100%; height: 725px;" src="http://bandcamp.com/EmbeddedPlayer/album=1503421118/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="http://pedrodom.bandcamp.com/album/organiza-o-celestial-do-livre-arb-trio">Organização Celestial do Livre Arbítrio by Pedro DOM</a></iframe>
+		<br /><br />
+		<iframe style="border: 0; width: 350px; height: 791px;" src="http://bandcamp.com/EmbeddedPlayer/album=372853887/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="http://pedrodom.bandcamp.com/album/venus">Venus by Pedro DOM</a></iframe>
+		<br /><br />
+		<iframe style="border: 0; width: 350px; height: 791px;" src="http://bandcamp.com/EmbeddedPlayer/album=1165185110/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="http://pedrodom.bandcamp.com/album/mudei-minha-vida">Mudei minha vida by Pedro DOM</a></iframe>
+		<br /><br />
+	</div>
+	<div class="twocol last"></div>
 </div>
 
     
