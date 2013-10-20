@@ -6,7 +6,7 @@ get_header(); ?>
 <div class="row paddingT36">
     <div class="eightcol">
     
-    <?php $wp_query->query('cat=-5'.'&paged='.$paged); ?>
+    <?php $wp_query->query('cat=-4'.'&paged='.$paged); ?>
     
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
     
