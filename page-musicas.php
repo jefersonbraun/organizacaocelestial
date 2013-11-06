@@ -12,6 +12,16 @@ get_header(); ?>
 
 <div class="row">
 	<div class="twocol"></div>
+		<div class="eightcol marginT18">
+			<a style="text-decoration: none;" href="http://www.4shared.com/zip/eqbSDJL6/OCLA.html" target=_blank><div class="downloadMusicas">Clique aqui para baixar nossas músicas</div></a>
+		</div>			
+	<div class="twocol last"></div>
+	</div>
+</div>
+
+
+<div class="row">
+	<div class="twocol"></div>
 	<div class="fourcol marginT18">
 		<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/7104602&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>
 		<br /><br />

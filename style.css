@@ -16,6 +16,14 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 /* ! Layout for desktop version   */
 /* ============================== */
 
+	#logo a {
+		text-decoration: none;
+	}
+	
+	.overVisible {
+		overflow: visible;
+	}
+
     .paddingT18 {
         padding-top: 18px;
     }
@@ -55,6 +63,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     
     .alignright {
 	    float: right;
+    }
+    
+    .fb-like {
+    	float: right;
+	    text-align: right;
     }
     
     .centro {
@@ -436,6 +449,21 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	}
     
 }
+
+.downloadMusicas {
+	background-color: #711414;
+	padding: 18px 0;
+	line-height: 18px;
+	width: 100%;
+	text-align: center;
+	font-family: 'DINpro', sans-serif;
+	color: white;
+	border-radius: 8px;
+}
+
+	.downloadMusicas:hover {
+		background-color: #8c1d1d;
+	}
 
 
 /* ====================== */

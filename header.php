@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+<!DOCTYPE html xmlns:fb="http://ogp.me/ns/fb#">
 
 <head>
-	<title><?php wp_title( '|', true, 'right' ); ?></title>
-	
+	<title><?php bloginfo('name'); ?> <?php wp_title(); ?></title>
+	<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
 	<!-- 1140px Grid styles for IE -->
@@ -20,16 +20,6 @@
 	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-2.0.3.min.js"></script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/clipes.js"></script>
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style.css">
-
-	<!-- FACEBOK -->	
-	<div id="fb-root"></div>
-	<script>(function(d, s, id) {
-	var js, fjs = d.getElementsByTagName(s)[0];
-	if (d.getElementById(id)) return;
-	js = d.createElement(s); js.id = id;
-	js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=526893990697251";
-	fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
 	
 	<!-- TWITTER -->
 	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
@@ -52,35 +42,33 @@
 </head>
 
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=526893990697251";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 		<header class="paddingT36">
             <div class="container">
-                <div class="row">
-                    <div id="logo" class="threecol">
-            			<a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-            				<img src="<?php echo get_template_directory_uri(); ?>/imagens/logo.png" alt="logo" width="166" height="36">
-            			</a>
-                    </div>
-                    <div class="ninecol last">
-            			<div id="redes">
-            				<a class="youtube" target="_blank" href="http://www.youtube.com/user/OCLATV/videos"></a>
-            				<a class="twitter" target="_blank" href="https://www.twitter.com/oclatil"></a>
-            				<a class="facebook" target="_blank" href="https://www.facebook.com/organizacaocelestial"></a>
-            			</div>
-                    </div>
-                </div>
-                
-                <div class="row paddingT36">
-                    <div class="eightcol">
-            			<nav id="menuPrincipal">
-            			    <?php wp_nav_menu( "__array ('menu' +> 'principal')"); ?>
-            			</nav><!-- #site-navigation -->
-                    </div>
-                    <div class="fourcol last">
-					<div class="alignright"><a href="https://twitter.com/share" class="twitter-share-button mleft10" data-url="http://organizacaocelestial.com.br/" data-text="" data-via="oclatil">Tweet</a></div>
-						<div class="alignright"><div class="fb-like" data-href="http://organizacaocelestial.com.br/" data-layout="button_count" data-show-faces="false" data-send="false"></div></div>
-                    </div>
+                <div class="row overVisible">
+					<div id="logo" class="eightcol">
+						<a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+							<img src="<?php echo get_template_directory_uri(); ?>/imagens/logo.png" alt="logo" width="166" height="36">
+						</a>
+						<br />
+						<nav id="menuPrincipal" class="paddingT36">
+							<?php wp_nav_menu( "__array ('menu' +> 'principal')"); ?>
+						</nav><!-- #site-navigation -->
+					</div>
+					<div class="fourcol last">
+						<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Forganizacaocelestial&amp;width&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=80&amp;appId=526893990697251" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:100px;" allowTransparency="true"></iframe>
+					</div>
                 </div><!-- .row -->
             </div><!-- .container -->
 		</header>
 
 		<div class="container">
+		<br />
