@@ -3,9 +3,9 @@
 <div  class="row paddingT18 destaque">
     <div  class="fourcol">
         <h2>Blog</h2><br />
-        <a href="http://organizacaocelestial.com.br/cisco-china-tour/">
-        <img src="<?php echo get_template_directory_uri(); ?>/imagens/destaque/cisco.png" alt="destaque" width="380" height="360" /></a>
-        <p class="excerpt"><b>A equipe de skate da Cisco fez uma tour na China e tem música nossa na trilha sonora!</b></p>
+        <a href="http://organizacaocelestial.com.br/proximo-passo-qual-e-o-seu/">
+        <img src="<?php echo get_template_directory_uri(); ?>/imagens/destaque/proximopasso.png" alt="destaque" width="380" height="360" /></a>
+        <p class="excerpt"><b>Com participações muito especiais, Próximo Passo será lançado em dezembro, como presente de férias!</b></p>
     </div>
     <div  class="fourcol">
         <h2>Clipes</h2><br />
@@ -22,20 +22,3 @@
 </div>
 
 <?php get_footer() ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

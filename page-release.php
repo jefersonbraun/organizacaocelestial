@@ -22,7 +22,7 @@ get_header(); ?>
     <div class="row">
         <div class="twocol"></div>
         <div class="fourcol marginT18">
-            <p align="justify">Coletivo musical formado em 2009 por Pedro DOM (multi instrumentista/compositor), Patrick Bass (baixo) e Zilla Sonoro (MC/beatmaker). Suas sonoridades sofisticadas não podem pertencer a um gênero único, pois quando há a mescla de ritmos brasileiros como o samba e a bossa nova, a erudição de Bethoven, Debussy e Villa Lobos sendo transmitidas pela energia viva e pulsante do Rap, o resultado é uma ecatombe para todos os amantes da música autêntica.</p>
+            <p align="justify">Coletivo musical formado em 2009 por Pedro DOM (multi instrumentista/compositor), Patrick Bass (baixo) e Zilla Sonoro (MC/beatmaker). Suas sonoridades sofisticadas não podem pertencer a um gênero único, pois quando há a mescla de ritmos brasileiros como o samba e a bossa nova, a erudição de Mahler, Debussy e Villa Lobos sendo transmitidas pela energia viva e pulsante do Rap, o resultado é uma ecatombe para todos os amantes da música autêntica.</p>
         </div>
         <div class="fourcol marginT18">
             <p align="justify">Em suas letras, o retrato de uma juventude pensante que busca melhorias sem radicalismos, usando a consciência e a voz em alerta a seus contemporâneos. Do erudito ao popular.</p>
