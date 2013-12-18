@@ -3,9 +3,9 @@
 <div  class="row paddingT18 destaque">
     <div  class="fourcol">
         <h2>Blog</h2><br />
-        <a href="http://organizacaocelestial.com.br/proximo-passo-qual-e-o-seu/">
+        <a href="http://organizacaocelestial.com.br/proximo-passo-expressao-combativa-e-conceitual/">
         <img src="<?php echo get_template_directory_uri(); ?>/imagens/destaque/proximopasso.png" alt="destaque" width="380" height="360" /></a>
-        <p class="excerpt"><b>Com participações muito especiais, Próximo Passo será lançado em dezembro, como presente de férias!</b></p>
+        <p class="excerpt"><b>Lançado o mais recente disco de Pedro DOM, Próximo Passo!</b></p>
     </div>
     <div  class="fourcol">
         <h2>Clipes</h2><br />
